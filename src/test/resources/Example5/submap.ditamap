@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<map id="submap" xml:lang="en">
+  <title>Sub-Map</title>
+  <keydef id="keydef-4" keys="key-1"/>
+  <keydef id="keydef-5" keys="key-2"/>
+</map>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<map xml:lang="en">
+  <title>Key Definition Containment Example</title>
+
+  <topicgroup keyscope="scope-1">
+    <keydef keys="key-1" href="someTopic.dita" />
+  </topicgroup>
+  
+  <!-- Processors should issue a warning for an undefined key
+       since the reference occurs in the root scope, and the
+       root scope does not contain a definition for key-1. -->
+  <topicref keyref="key-1" />
+
+  <!-- However, this reference is OK. -->
+  <topicref keyref="scope-1.key-1" />
+</map>

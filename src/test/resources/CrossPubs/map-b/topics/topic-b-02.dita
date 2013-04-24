@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_yzz_zp2_kj">
+  <title>Topic B-02</title>
+  <body>
+    <p>This is a topic in map B.</p>
+    <fig
+      id="fig-01">
+      <title>A figure in topic B-02</title>
+      <p>Figure B-02/fig-01 content.</p>
+    </fig>
+  </body>
+</topic>

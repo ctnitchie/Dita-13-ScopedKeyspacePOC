@@ -1,0 +1,5 @@
+<map>
+ <title>All Tractors</title>
+ <topicref href="TractorX.ditamap" format="ditamap" keyscope="TractorX"/>
+ <topicref href="TractorY.ditamap" format="ditamap" keyscope="TractorY"/>
+</map>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<map keyscope="mapScopeName1 mapScopeName2">
+  <keydef keys="key-1" id="theDefinition" />
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<map>
+  <topicgroup keyscope="scope-1">
+    <topicref keys="scope-1-key-1" href="Topic1.dita"/>
+  </topicgroup>
+  <topicgroup keyscope="scope-2">
+    <topicref keys="scope-2-key-1" href="Topic2.dita"/>
+  </topicgroup>
+</map>

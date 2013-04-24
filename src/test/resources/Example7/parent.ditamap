@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<map>
+  <title>Publication Title</title>
+  <topicref keyscope="maprefScopeName1 maprefScopeName2"
+          href="child.ditamap" format="ditamap" />
+  <topicref keyref="mapScopeName1.key-1" />
+  <topicref keyref="mapScopeName2.key-1" />
+  <topicref keyref="maprefScopeName1.key-1" />
+  <topicref keyref="maprefScopeName2.key-1" />
+</map>

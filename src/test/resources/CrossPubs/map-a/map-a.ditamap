@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map keyscope="map-a">
+  <title>Map A (13004 version)</title>
+    <!-- This map establishes the scope "map-a".
+      
+         The use case is that you want to be able to reference 
+         topics using keys of the form "map-a.foo" from outside
+         this scope, but "foo" from within the scope, that is,
+         topics that are only ever used from within this scope
+         or for which "foo" will be defined in whatever scope
+         the topic is used.
+         
+         We now include the map-a local keydefs within this
+         scope so that these keydefs are within the scope
+         and thus unqualified references to them will work.
+         
+         Note that we can't put the scope on the map with 
+         the keydefs because that map doesn't then contain
+         the navigation topicrefs that we want to be in the
+         scope.
+         
+         This means that each use of topic-a's.
+      -->
+  <mapref href="keydefs/map-a-keydefs-local.ditamap" 
+    scope="local"
+    processing-role="resource-only"/>
+  <!-- Include Map B's map as a peer and assign a keyscope to it. -->
+  <mapref href="../map-b/map-b.ditamap" 
+    scope="peer" 
+    keyscope="map-b"/>
+  <!-- Navigation tree for map A: -->
+  <topicref 
+    keyref="topic-a-root">
+    <topicref
+      keyref="topic-a-01"/>
+    <topicref
+      keyref="topic-a-02"/>
+  </topicref>
+</map>

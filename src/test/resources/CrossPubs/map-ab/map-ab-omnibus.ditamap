@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Map AB Omnibus</title>
+  <topicgroup>
+    <topicmeta>
+      <navtitle>Key Definitions</navtitle>
+    </topicmeta>
+    <mapref href="keydefs/map-ab-keydefs-local.ditamap"/>
+  </topicgroup>
+  <!-- This map represents the use of case of combining two
+       normally-root maps into a single "omnibus" map.
+       
+       In this case we can simply include the maps directly,
+       assigning the appropriate scope to each map so that
+       the existing cross-scope references will work.
+       
+    -->
+  <topicref
+    keyref="topic-ab-root">
+    <mapref keyscope="map-a"
+       href="../map-a/map-a.ditamap"
+    />
+    <mapref keyscope="map-b"
+       href="../map-b/map-b.ditamap"
+    />
+  </topicref>
+</map>

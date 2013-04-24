@@ -1,0 +1,9 @@
+<map>
+ <title>Tractor Y</title>
+ <topicref id="y1"
+           keys="OilChart"
+           href="TractorY/oilChart.dita"/>
+ <topicref id="y2"
+           keys="RegularMaintenance"
+           href="TractorY/RegularMaintenance.dita"/>
+</map>

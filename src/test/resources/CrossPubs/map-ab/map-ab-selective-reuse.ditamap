@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Map AB Selective Reuse</title>
+  <topicgroup>
+    <topicmeta>
+      <navtitle>Key Definitions</navtitle>
+    </topicmeta>
+    <mapref href="keydefs/map-ab-keydefs-local.ditamap"/>
+  </topicgroup>
+  <!-- This map represents the use of case of combining topics
+       from two standalone maps. Here, we don't wan to include
+       all the topics from the original maps, just some.
+       
+       The question is how to do this so that key scopes
+       are defined correctly?    
+       
+       Here I've used <topicgroup> to take the place of the
+       mapref elements from the omnibus AB map.
+       
+       Because we only want some topics from each map,
+       we have to include the key definitions for each 
+       map explicitly, within the scope-defining topicgroup
+       for each of map A and B.
+    -->
+  <topicref
+    keyref="topic-ab-root">
+    <topicgroup keyscope="map-a">
+      <mapref href="../map-a/keydefs/map-a-keydefs-local.ditamap"/>
+      <topicref
+        keyref="topic-ab-01">
+        <topicref
+          keyref="topic-ab-02"/>
+      </topicref>
+    </topicgroup>
+    <topicgroup keyscope="map-b">
+      <mapref href="../map-b/keydefs/map-b-keydefs-local.ditamap"/>
+      <topicref
+        keyref="topic-b-01">
+        <topicref
+          keyref="topic-b-02"/>
+      </topicref>
+    </topicgroup>
+  </topicref>
+</map>

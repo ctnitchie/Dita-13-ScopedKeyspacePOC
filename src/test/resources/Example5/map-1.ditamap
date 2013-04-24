@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<map id="map-1" xml:lang="en">
+  <title>Outer Map</title>
+  <topicref format="ditamap" href="submap.ditamap" keyscope="scope-1">
+    <keydef id="keydef-1" keys="key-1"/>
+    <keydef id="keydef-2" keys="key-2"/>
+  </topicref>
+  <keydef id="keydef-3" keys="key-1"/>
+</map>

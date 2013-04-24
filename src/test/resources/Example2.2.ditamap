@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<map xml:lang="en">
+  <title>Equipment Oil Change Procedures</title>
+
+  <topicref href="common/oilchange.dita" keyscope="Tractor-X">
+    <keydef keys="ProductName">
+      <topicmeta>
+        <linktext>Tractor X</linktext>
+      </topicmeta>
+    </keydef>
+  </topicref>
+
+  <topicref href="common/oilchange.dita" keyscope="Tractor-Y">
+    <keydef keys="ProductName">
+      <topicmeta>
+        <linktext>Tractor Y</linktext>
+      </topicmeta>
+    </keydef>
+  </topicref>
+
+</map>

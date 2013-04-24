@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<map>
+  <title>Explicit Key Definition Example</title>
+
+  <keydef keys="child.keyName" id="keydef1" />
+
+  <topicgroup keyscope="child">
+    <keydef id="keydef2" keys="keyName" />
+
+    <topicref id="topicref1" keyref="keyName" />
+    <topicref id="topicref2" keyref="child.keyName" />
+  </topicgroup>
+
+  <topicref id="topicref3" keyref="keyName" />
+  <topicref id="topicref4" keyref="child.keyName" />
+</map>
